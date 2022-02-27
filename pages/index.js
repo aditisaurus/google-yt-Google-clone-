@@ -23,7 +23,7 @@ export default function Home() {
 <div className="flex space-x-4 items-center">
   <p className="link">Gmail</p>
   <p className="link">Images</p>
-    <Avatar url="https://drive.google.com/file/d/172Zlcf_4FyLga8kLe7lDOOwY0gQsYH5O/preview" />   
+    <Avatar url="https://github.com/aditisinghdeveloper/google-yt-Google-clone-/blob/main/assets/tatti.jpg?raw=true" />   
 
 </div>
 
