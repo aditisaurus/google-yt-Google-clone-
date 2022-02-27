@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from 'next/image';
 import Avatar from "../components/Avatar"
+import {MicrophoneIcon, ViewGridIcon} from "@heroicons/react/solid";
+import {SearchIcon } from "@heroicons/react/outline";
 
 
 
@@ -23,12 +25,27 @@ export default function Home() {
 <div className="flex space-x-4 items-center">
   <p className="link">Gmail</p>
   <p className="link">Images</p>
-    <Avatar url="https://github.com/aditisinghdeveloper/google-yt-Google-clone-/blob/main/assets/tatti.jpg?raw=true" />   
+
+  <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
+    <Avatar url="https://github.com/aditisinghdeveloper/google-yt-Google-clone-/blob/main/assets/avatarimg.jpg?raw=true" />   
 
 </div>
 
 
 </header>
+
+<form>
+<Image src="https://cdn.vox-cdn.com/thumbor/Ei4ydi9WDwJW-dpSW_QWMiVULNs=/0x0:2012x1341/1820x1213/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" height={100} width={300} />
+
+<div>
+  <SearchIcon className="h-5 mr-3 text-gray-500" />
+  <input type="text" className="bg-red-500 focus:outline-none" />
+  <MicrophoneIcon className="h-5"/>
+</div>
+  </form>
+
+
+
 
      
 
