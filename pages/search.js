@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "../Header.js";
+import Header from "../Components/Header";
 
 
 function Search() {
